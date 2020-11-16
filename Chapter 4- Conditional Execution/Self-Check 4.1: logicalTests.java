@@ -13,7 +13,7 @@ e. y is a multiple of z.	                   y % z == 0;
 f. z is not zero.	                           z != 0;
 g. y is greater in magnitude than z.	       Math.abs(y) > Math.abs(z)
 h. x and z are of opposite signs.	           (x >= 0) == (z < 0)
-i. y is a nonnegative one-digit number.	     y % 10 == y
+i. y is a nonnegative one-digit number.	     Math.abs(y) % 10 == y
 j. z is nonnegative.	                       z >= 0;
 k. x is even	                               x % 2 == 0;
 l. x is closer in value to y than z is.	     Math.abs(x - y) < Math.abs(z - y);
